@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: PDFGenerator
+
+server:
+  port: 8085
+
+pdf:
+  storage-path: C:\\temp\\collections
+  backup-path: C:\\temp\\backup
+  template-path: C:\\temp\\templates
+  

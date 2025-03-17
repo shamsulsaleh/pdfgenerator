@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Sample PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+	<h1>This is sample..</h1>
+    <h1 th:text="${title}">Sample Title</h1>
+    <p th:text="${content}">This is a sample content for the PDF.</p>
+</body>
+</html>
